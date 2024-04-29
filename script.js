@@ -13,7 +13,7 @@ let menuIcon =document.querySelector('#menu-icon');
 let navlink = document.querySelectorAll('header nav a');
 
 window.onscroll =() => {
-    Selection.foreach(sec => {
+    Selection.foreach(sec => {git push -u origin main
         let top = window.scrollY;
         let offset = sec. offsettop-150;
         let height = sec. offsetheight;
