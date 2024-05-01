@@ -298,6 +298,7 @@ i{
     width: 200%;
     background: var(--snd-bg-color);
     right: 20rem;
+    margin-right: -200rem;
 
  }
  .footer-text{
@@ -309,7 +310,7 @@ i{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: .8rem 1rem ;
+    padding: .1rem -2rem ;
     background: var(--main-color);
     border-radius: .8rem;
     transition: .5s ease;
