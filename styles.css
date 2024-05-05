@@ -295,7 +295,7 @@ i{
     display: inline-flex;
     justify-content:  space-between;
     flex-wrap: wrap;
-    width: 110%;
+    width: 120%;
     background: var(--snd-bg-color);
     
 
@@ -369,8 +369,6 @@ i{
           display: block;
           margin-right: 10%;
           
-          
-
     }
     .navbar{
         position: absolute;
