@@ -301,7 +301,7 @@ i{
     display: inline-flex;
     justify-content:  space-between;
     flex-wrap: wrap;
-    width: 100%;
+    width: 110%;
     background: var(--snd-bg-color);
     
 
