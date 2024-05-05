@@ -295,10 +295,10 @@ i{
     display: inline-flex;
     justify-content:  space-between;
     flex-wrap: wrap;
-    width: 200%;
+    width: 110%;
     background: var(--snd-bg-color);
-    right: 20rem;
-    margin-right: -200rem;
+    
+
 
  }
  .footer-text{
@@ -367,7 +367,8 @@ i{
 @media(max-width:384px){
     #menu-icon{
           display: block;
-          margin-right: 50%;
+          margin-right: 10%;
+          
           
 
     }
@@ -414,7 +415,7 @@ i{
         flex-direction: column;
     }
     .about.img img{
-        width: 90vw;
+        width:90vw;
         margin-top: 50%;
     }
     .service h2{
@@ -438,7 +439,7 @@ i{
     }
   
     .about.img img{
-        width: 100vw;
+        width: 100px;
         margin-top: 4rem;
     }
 }
