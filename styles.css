@@ -73,6 +73,16 @@ header{
     color: var(--text-color);
     display: none;
 }
+#menu-raj{
+    font-size: 1.6rem;
+    color: var(--text-color);
+     
+     
+   
+}
+#download{
+    margin-left: 2%;
+}
 .Home{
     display: flex;
     justify-content: center;
@@ -87,6 +97,7 @@ header{
   margin-bottom: 2rem;
 
 }
+ 
 span{
     color: var(--main-color);
 
@@ -125,7 +136,7 @@ span{
      
 
 }
-.social-media a{
+.social-media a {
     place-items: 1rem;
     display: inline-flex;
     justify-content: center;
@@ -182,7 +193,7 @@ i{
     align-items: center;
     gap: 2rem;
     background: var(--snd-bg-color);
-    width: 55rem;
+  
    
 }
  
@@ -199,7 +210,7 @@ i{
      font-size: 2.6rem;
 }
 .about-control p{
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     margin: 2rem 0 3rem;
 }
 i{
@@ -212,6 +223,7 @@ i{
     margin-bottom: 5rem;
     gap: 5rem;
     margin-left: 23%;
+    margin-right: 30%;
 }
 .service-control{
 
@@ -230,11 +242,7 @@ i{
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
-    transition: .5s ease;
-    margin-left: 25%;
-
-    
-    
+    transition: .5s ease;  
     
 }
 .service-box:hover{
@@ -249,27 +257,33 @@ i{
 
 }
 .service-box p{
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     margin: 2rem 0 3rem;
     
 }
+
 .contact h2{
    margin-bottom: 3rem;
+   margin-right: 30%;
+  
 }
+ 
 .contact form{
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
-    margin-left: 25%;
+    margin-left: 18%;
     
 }
 .contact form .input-box{
     display: flex; 
     justify-content: space-between;
     flex-wrap: wrap;
+     
 
 }
+ 
 .contact form .input-box input,
 .contact form textarea{
 
@@ -280,11 +294,12 @@ i{
     background: var(--snd-bg-color);
     margin: .7rem 0;
     border-radius: .8rem;
+  
 }
 .contact form .input-box input{
     width: 50%;
 }
- 
+
  .contact form textarea{
     resize: none;
  }
@@ -318,7 +333,8 @@ i{
     background: var(--main-color);
     border-radius: .8rem;
     transition: .5s ease;
-    
+    margin-right: -1%;
+    width: 4%;
  }
 .footer-icontop a:hover{
     box-shadow: 0 0 1rem var(--main-color);
